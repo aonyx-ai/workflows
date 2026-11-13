@@ -1,4 +1,4 @@
-FROM rust:1.99.1
+FROM rust:1.100.0
 
 # Install Clippy and rustfmt
 RUN rustup component add clippy rustfmt
